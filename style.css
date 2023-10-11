@@ -1,0 +1,103 @@
+@import url(https://fonts.google.com/specimen/Comfortaa?classification=Display&stroke=Sans+Serif);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(216, 213, 213);
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/*DESKTOP NAV*/
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(3, 3, 3);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(61, 61, 61);
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/*PROFILE SECTION*/
+#home {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.prfl_pic {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: auto 0;
+}
+
+p.btn_Abt {
+  padding: 5px;
+  background-color: rgb(136, 179, 204);
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text_p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+  text-decoration-color: rgb(66, 66, 66);
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-decoration-color: rgb(66, 66, 66);
+}
