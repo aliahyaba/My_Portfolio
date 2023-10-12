@@ -151,6 +151,10 @@ a:hover {
   color: rgb(255, 0, 0);
 }
 
+.wrapper .button:nth-child(4):hover .icon {
+  color: rgb(224, 138, 178);
+}
+
 /* BUTTON */
 
 .btn {
@@ -175,6 +179,23 @@ a:hover {
 }
 
 .btn1:hover {
+  background: rgb(2, 2, 2);
+}
+
+.btn2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn2hover {
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn2:hover {
   background: rgb(2, 2, 2);
 }
 
