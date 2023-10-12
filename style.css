@@ -118,6 +118,26 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.go-top-btn {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border: 3px solid #333;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-top-btn img {
+  width: 50px;
+  height: 50px;
+}
+
 .button {
   display: inline-block;
   width: 50px;
@@ -153,6 +173,26 @@ a:hover {
 
 .wrapper .button:nth-child(4):hover .icon {
   color: rgb(224, 138, 178);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 
 /* BUTTON */
@@ -366,11 +406,6 @@ article .icon {
   margin: auto 0;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
 /* Experience Section */
 
 #experience {
@@ -445,6 +480,12 @@ article .icon {
 
 .project-btn:hover {
   background: rgb(36, 33, 33);
+}
+
+.arrow {
+  position: absolute;
+  right: 2rem;
+  bottom: 3rem;
 }
 
 /* Contact Section */
