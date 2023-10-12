@@ -67,19 +67,10 @@ a:hover {
 
 /*HAMBURGER*/
 
-#menu__toggle {
-  opacity: 0;
-}
-
-#hamburger-menu {
-  display: none;
-  overflow: hidden;
-}
-
 .menu__box {
   display: block;
   position: absolute;
-  visibility: hidden;
+
   top: 0;
   padding: 10px;
   right: -100%;
@@ -97,6 +88,14 @@ a:hover {
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 
   transition-duration: 0.25s;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#hamburger-menu {
+  display: none;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
